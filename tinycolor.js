@@ -1,4 +1,4 @@
-// TinyColor v1.4.1
+// TinyColor v1.4.2
 // https://github.com/bgrins/TinyColor
 // Brian Grinstead, MIT License
 
@@ -6,7 +6,6 @@
 
 var trimLeft = /^\s+/,
     trimRight = /\s+$/,
-    tinyCounter = 0,
     mathRound = Math.round,
     mathMin = Math.min,
     mathMax = Math.max,
@@ -45,7 +44,6 @@ function tinycolor (color, opts) {
     if (this._b < 1) { this._b = mathRound(this._b); }
 
     this._ok = rgb.ok;
-    this._tc_id = tinyCounter++;
 }
 
 tinycolor.prototype = {
