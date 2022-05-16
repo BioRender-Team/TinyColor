@@ -1,12 +1,12 @@
 {
   "version": "1.4.2",
-  "name": "tinycolor2",
+  "name": "@biorender-team/tinycolor2",
   "description": "Fast Color Parsing and Manipulation",
   "url": "http://bgrins.github.com/TinyColor",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bgrins/TinyColor.git"
+    "url": "https://github.com/BioRender-Team/TinyColor.git"
   },
   "keywords": [
     "color",
@@ -25,5 +25,8 @@
     "grunt-contrib-qunit": "^4.0.0",
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-docco": "~0.2.0"
+  },
+  "publishConfig": {
+    "@biorender-team:registry": "https://npm.pkg.github.com"
   }
 }
